@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/how-many-points-did-the-teams-from-los-angeles-score/train/ruby
+Unsolved
+def get_los_angeles_points(results)
+  los_angeles = []
+
+  results.each do |result|
+    if result.include?("Los Angeles")
+      los_angeles << resulte
+    end
+  end
+  los_angeles.split(,)
+end

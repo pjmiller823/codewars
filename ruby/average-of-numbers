@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/averages-of-numbers/train/ruby
+UNSOLVED
+def averages(arr)
+  arr.map { |number| number = (number + number.succ) / 2 }
+end
