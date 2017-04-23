@@ -10,3 +10,20 @@ def get_los_angeles_points(results)
   end
   los_angeles.split(,)
 end
+
+--------------
+def get_los_angeles_points(results)
+  los_angeles = []
+
+  results.each do |result|
+    if result.include?("Los Angeles")
+      los_angeles << resulte
+    end
+  end
+  los_angeles.each do |game|
+    game.drop
+  end
+end
+
+
+[["382:422"], ["641:637"]]

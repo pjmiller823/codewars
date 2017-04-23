@@ -1,10 +1,5 @@
 https://www.codewars.com/kata/how-many-lightsabers-do-you-own/train/ruby
-UNSOLVED
 
-def howmanylightsabersdoyouown (name)
-  if name == "Zach"
-    return 18
-  else
-    0
-  end
+def howManyLightsabersDoYouOwn(name="")
+  name.downcase == "zach" ? 18 : 0
 end
