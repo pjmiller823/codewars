@@ -1,0 +1,10 @@
+
+https://www.codewars.com/kata/58aa68605aab54a26c0001a6
+
+def distinct_digit_year(year)
+  year += 1
+  until year.to_s.chars.uniq.count == year.to_s.chars.count do
+    year += 1
+  end
+  year
+end
